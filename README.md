@@ -21,11 +21,11 @@ Having to wrangle multiple connections at the top level gets a bit ugly and the 
 
 Add the pipeIn Op to the COMP with outputs you'd like to route. Drop any number or type of operators onto the active Container.
 
-![pipeIn](https://hackmd.io/_uploads/rygag27gbx.gif)
+![image](https://hackmd.io/_uploads/rygag27gbx.gif)
 
 Operators dropped onto the pipeIn COMP are added to the list of sent OPs. The output can be routed to another COMP.
 
-![pipeOut](https://hackmd.io/_uploads/BJ1b-n7gZx.gif)
+![image](https://hackmd.io/_uploads/BJ1b-n7gZx.gif)
 
 At the other end, place a pipeOut Op and route the DAT cable from the pipeIn Op into it. Output pins for the referenced operators are automatically created for you. These can be used in place of the inputs.
 
