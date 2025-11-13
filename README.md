@@ -21,7 +21,7 @@ Having to wrangle multiple connections at the top level gets a bit ugly and the 
 
 Add the pipeIn Op to the COMP with outputs you'd like to route. Drop any number or type of operators onto the active Container.
 
-![image](https://hackmd.io/_uploads/rygag27gbx.gif)
+![image]([https://hackmd.io/_uploads/rygag27gbx.gif](https://drive.google.com/file/d/17WnRMeGPPf-cStNYY4GbJRQ3tPp1aWtq/view?usp=sharing))
 
 Operators dropped onto the pipeIn COMP are added to the list of sent OPs. The output can be routed to another COMP.
 
